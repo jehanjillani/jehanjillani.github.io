@@ -87,16 +87,11 @@ a#h1-link:active {
 }
 
 
-/*ABOUT ME Pictures Styling*/
+/*ABOUT ME Styling*/
 .main-content-aboutme, .main-content-home {
   padding-top: 50px;
   padding-left: 190px;
   padding-right: 20px;
-}
-
-#about-photo-jj {
-  height: 450px;
-  padding-top: 20px;
 }
 
 .about-content {
@@ -137,7 +132,11 @@ a#h1-link:active {
 
 /*WORK Pictures Img&Width*/
 
+#about-photo-jj {
+  height: 450px;
+  padding-top: 20px;
 }
+
 img {
   -webkit-filter: drop-shadow(3px 3px 3px #222);
   filter: drop-shadow(3px 3px 3px #222);
