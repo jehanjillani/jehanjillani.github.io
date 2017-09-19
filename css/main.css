@@ -26,6 +26,8 @@ h1 {
   span {
   font-family: 'Roboto', 'Arial', sans-serif; font-weight: 400;
   font-size: 13px;
+  /*padding-left: 31px;
+  padding-bottom: 0px;*/
   }
 
 .navigation-bar {
@@ -84,14 +86,34 @@ a#h1-link:active {
   font-size: 23px;
 }
 
-/*WORK Pictures Styling*/
 
-.main-content-tny, .main-content-natgeo, .main-content-aboutme, .main-content-home{
- padding-top: 100px;
- padding-left: 220px;
- padding-right: 20px;
+/*ABOUT ME Pictures Styling*/
+.main-content-aboutme, .main-content-home {
+  padding-top: 50px;
+  padding-left: 190px;
+  padding-right: 20px;
 }
 
+#about-photo-jj {
+  height: 450px;
+  padding-top: 20px;
+}
+
+.about-content {
+  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+  /*WORK Pictures Styling*/
+.main-content-tny, .main-content-natgeo {
+   padding-top: 100px;
+   padding-left: 220px;
+   padding-right: 20px;
+  }
 
 .images-text-natgeo {
   font-family: 'Lato', Arial, sans-serif; font-weight: 300;
@@ -100,7 +122,7 @@ a#h1-link:active {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  width: 3000px;
+  width: 3400px;
 }
 
 .images-text-tny {
@@ -110,11 +132,12 @@ a#h1-link:active {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  width: 2700px;
+  width: 2600px;
 }
 
 /*WORK Pictures Img&Width*/
 
+}
 img {
   -webkit-filter: drop-shadow(3px 3px 3px #222);
   filter: drop-shadow(3px 3px 3px #222);
@@ -134,15 +157,13 @@ img:hover {
 }
 
 
-/*WORK PICTURES CR*/
+/*WORK PICTURES COPYRIGHT STYLING*/
 
-.natgeo-southsudan-img1, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive {
+.natgeo-southsudan, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive, .paris-holder {
   position: relative;
 }
 
-/*WORK PICTURES CR STYLING*/
-
-#natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
+ #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
   opacity: 0;
   position: absolute;
   top: 35%;
@@ -154,43 +175,49 @@ img:hover {
   z-index: 1;
 }
 
-#tny-pope-copyright, #tny-scottishborder-copyright, #tny-loveinindia-copyright, #tny-smartphone-copyright, #tny-drcarchive-copyright {
+#tny-pope-copyright, #tny-scottishborder-copyright, #tny-loveinindia-copyright, #tny-paris-attack-copyright, #tny-smartphone-copyright, #tny-drcarchive-copyright {
   opacity: 0;
   position: absolute;
-  top: 35%;
   top: 35%;
   left: 30%;
   transition: 0.2s ease-in-out;
   font-size: 15px;
   font-weight: bold;
 }
+
+#tny-parisattack-copyright {
+opacity: 0;
+position: absolute;
+top: 45%;
+left: 25%;
+transition: 0.2s ease-in-out;
+font-size: 15px;
+font-weight: bold;
 }
+
 
 /*WORK PICTURES SOUTH-SUDAN-1*/
 
-.natgeo-southsudan-img1:hover #natgeo-southsudan-copyright {
+.natgeo-southsudan:hover #natgeo-southsudan-copyright {
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES SOUTH-SUDAN-2*/
 
-.natgeo-southsudan-img2:hover #natgeo-southsudan-copyright2 {
+.natgeo-southsudan-2:hover #natgeo-southsudan-copyright2 {
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES FELIPE-DANA-MOSUL*/
 
-.natgeo-mosul-img:hover #natgeo-mosul-copyright{
+/*.natgeo-mosul-img:hover #natgeo-mosul-copyright{
 opacity: 1;
 transition: all 0.2s linear;
-}
+}*/
 
 /*WORK PICTURES MOISES-SAMAN*/
-
-.img-wrapper:hove
-
 .natgeo-moises-saman:hover #natgeo-moisessaman-copyright{
 opacity: 1;
 transition: all 0.2s linear;
@@ -214,7 +241,7 @@ opacity: 1;
 transition: all 0.2s linear;
 }
 
-/*WORK PICTURES TNY POPE*/
+/*WORK PICTURES POPE*/
 .tny-pope:hover #tny-pope-copyright{
 opacity: 1;
 transition: all 0.2s linear;
@@ -228,6 +255,12 @@ transition: all 0.2s linear;
 
 /*WORK PICTURES LOVE IN INDIA*/
 .tny-loveinindia:hover #tny-loveinindia-copyright{
+opacity: 1;
+transition: all 0.2s linear;
+}
+
+/*WORK PICTURES PARIS*/
+.paris-holder:hover #tny-parisattack-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
@@ -247,41 +280,38 @@ transition: all 0.2s linear;
 
 /*ABOUT ME Styling*/
 
-
 .about-content-text {
 font-family: 'Lato', Arial, sans-serif; font-weight: 300;
 font-size: 14px;
 text-align: center;
-/*display: flex;
-align-items: center;
-justify-content: center;*/
 width:40%;
 display: block;
 height: auto;
 padding-left: 100px;
 }
 
-#jehanjillani-email a:hover {
-text-decoration: none;
-}
-
 /*MOBILE Styling*/
 
 /*NATGEO & TNY Styling*/
-@media (max-width: 750px) {
-  .images-text-natgeo, .images-text-tny  {
+
+@media (max-width: 800px) {
+  .images-text-natgeo, .images-text-tny, .about-content  {
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 80%;
   padding-right: 20px;
   }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
+  img {
+  height: 20em;
+  }
+}
+
+@media (max-width: 800px) {
   .about-content-text{
   width: auto;
   padding-left: 0;
   padding-right: 20px;
 }
-
-
-/*ABOUT MOBILE Styling*/
+}
