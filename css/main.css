@@ -6,34 +6,29 @@ main {
   height: inherit;
 }
 
-/*Nav Styling*/
+                /***NAV STYLING***/
  .navigation-bar {
   height: auto;
-  width: 201px;
+  width: 206px;
   background: rgba(255,255,255, 0.8);
   height: 100%;
-  padding-right: 20px;
-
+  position: fixed;
+  z-index: 1;
 }
 
 h1 {
   font-family: 'Roboto', 'Arial', sans-serif; font-weight: 500;
   font-size: 23px;
-  padding-left: 30px;
   padding-top: 35px;
+  padding-left: 35px;
   }
 
-  span {
+span {
   font-family: 'Roboto', 'Arial', sans-serif; font-weight: 400;
   font-size: 13px;
   /*padding-left: 31px;
   padding-bottom: 0px;*/
   }
-
-.navigation-bar {
-  position: fixed;
-  z-index: 1;
-}
 
 .work, .about, .facebook, .twitter, .instagram, .tumblr, .linkedin {
   font-size: 16px;
@@ -60,7 +55,7 @@ margin: 4px 0px 5px 0;
   padding: 4px;
 }
 
-/*Links Styling*/
+                /***LINKS Styling***/
 
 a:link, a:visited {
     color: black;
@@ -86,57 +81,7 @@ a#h1-link:active {
   font-size: 23px;
 }
 
-
-/*ABOUT ME Styling*/
-.main-content-aboutme, .main-content-home {
-  padding-top: 50px;
-  padding-left: 190px;
-  padding-right: 20px;
-}
-
-.about-content {
-  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
-  font-size: 14px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-
-  /*WORK Pictures Styling*/
-.main-content-tny, .main-content-natgeo {
-   padding-top: 100px;
-   padding-left: 220px;
-   padding-right: 20px;
-  }
-
-.images-text-natgeo {
-  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
-  font-size: 14px;
-  text-align: center;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  width: 3400px;
-}
-
-.images-text-tny {
-  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
-  font-size: 14px;
-  text-align: center;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  width: 2600px;
-}
-
-/*WORK Pictures Img&Width*/
-
-#about-photo-jj {
-  height: 450px;
-  padding-top: 20px;
-}
-
+                /***IMG SHADOW Styling***/
 img {
   -webkit-filter: drop-shadow(3px 3px 3px #222);
   filter: drop-shadow(3px 3px 3px #222);
@@ -155,14 +100,42 @@ img:hover {
     filter: alpha(opacity=40);
 }
 
+                  /*WORK STYLING ALL*/
+.main-content-tny, .main-content-natgeo {
+   padding-top: 100px;
+   padding-left: 220px;
+   padding-right: 20px;
+  }
 
-/*WORK PICTURES COPYRIGHT STYLING*/
+.images-text-natgeo {
+  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 3700px;
+}
 
-.natgeo-southsudan, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive, .paris-holder {
+.images-text-tny {
+  font-family: 'Lato', Arial, sans-serif; font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 2600px;
+}
+
+
+
+                /***WORK PICTURES COPYRIGHT STYLING***/
+
+.natgeo-rohingya, .natgeo-southsudan, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive, .paris-holder {
   position: relative;
 }
 
- #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
+ #natgeo-rohingya-copyright, #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
   opacity: 0;
   position: absolute;
   top: 35%;
@@ -194,6 +167,14 @@ font-size: 15px;
 font-weight: bold;
 }
 
+                /***WORK NATIONAL GEOGRAPHIC***/
+
+/*WORK PICTURES ROHINGYA-REFUGEES*/
+
+.natgeo-rohingya:hover #natgeo-rohingya-copyright {
+  opacity: 1;
+  transition: all 0.2s linear;
+}
 
 /*WORK PICTURES SOUTH-SUDAN-1*/
 
@@ -211,10 +192,10 @@ transition: all 0.2s linear;
 
 /*WORK PICTURES FELIPE-DANA-MOSUL*/
 
-/*.natgeo-mosul-img:hover #natgeo-mosul-copyright{
+.natgeo-mosul-img:hover #natgeo-mosul-copyright{
 opacity: 1;
 transition: all 0.2s linear;
-}*/
+}
 
 /*WORK PICTURES MOISES-SAMAN*/
 .natgeo-moises-saman:hover #natgeo-moisessaman-copyright{
@@ -239,6 +220,9 @@ transition: all 0.2s linear;
 opacity: 1;
 transition: all 0.2s linear;
 }
+
+
+                /***WORK THE NEW YORKER***/
 
 /*WORK PICTURES POPE*/
 .tny-pope:hover #tny-pope-copyright{
@@ -277,7 +261,7 @@ transition: all 0.2s linear;
 }
 
 
-/*ABOUT ME Styling*/
+                /***ABOUT ME***/
 
 .about-content-text {
 font-family: 'Lato', Arial, sans-serif; font-weight: 300;
@@ -289,28 +273,68 @@ height: auto;
 padding-left: 100px;
 }
 
-/*MOBILE Styling*/
-
-/*NATGEO & TNY Styling*/
-
-@media (max-width: 800px) {
-  .images-text-natgeo, .images-text-tny, .about-content  {
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  padding-right: 20px;
-  }
-
-@media (max-width: 700px) {
-  img {
-  height: 20em;
-  }
+.main-content-aboutme, .main-content-home {
+padding-top: 50px;
+padding-left: 190px;
+padding-right: 20px;
 }
 
-@media (max-width: 800px) {
-  .about-content-text{
-  width: auto;
-  padding-left: 0;
-  padding-right: 20px;
+.about-content {
+font-family: 'Lato', Arial, sans-serif; font-weight: 300;
+font-size: 14px;
+text-align: center;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+
+#about-photo-jj {
+height: 450px;
+padding-top: 20px;
+}
+
+                /***MOBILE Styling***/
+
+@media (max-width: 736px) {
+.navigation-bar {
+height: auto;
+width: 26%;
+font-size: 20%;
+}
+}
+                /*NATGEO, ABOUT & TNY Styling*/
+
+@media (max-width: 736px) {
+.images-text-natgeo, .images-text-tny {
+flex-direction: column;
+align-items: center;
+width: 40%;
+}
+}
+
+@media (max-width: 736px) {
+img {
+height: 15em;
+}
+}
+
+                /*ABOUT IMG Styling*/
+
+@media (max-width: 736px) {
+.about-content  {
+flex-direction: column;
+align-items: center;
+width: 80%;
+padding-left: 0px;
+}
+}
+
+@media (max-width: 736px) {
+.about-content-text  {
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding-left: 0px;
 }
 }
