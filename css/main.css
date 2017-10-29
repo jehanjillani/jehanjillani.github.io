@@ -338,3 +338,10 @@ width: 100%;
 padding-left: 0px;
 }
 }
+
+
+@media (max-width: 736px) {
+#about-photo-jj  {
+height: 24em;
+}
+}
