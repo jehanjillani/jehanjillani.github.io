@@ -170,53 +170,54 @@ font-weight: bold;
                 /***WORK NATIONAL GEOGRAPHIC***/
 
 /*WORK PICTURES ROHINGYA-REFUGEES*/
-
+/*
 .natgeo-rohingya:hover #natgeo-rohingya-copyright {
   opacity: 1;
   transition: all 0.2s linear;
 }
+*/
 
 /*WORK PICTURES SOUTH-SUDAN-1*/
 
-.natgeo-southsudan:hover #natgeo-southsudan-copyright {
+/*.natgeo-southsudan:hover #natgeo-southsudan-copyright {
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES SOUTH-SUDAN-2*/
 
-.natgeo-southsudan-2:hover #natgeo-southsudan-copyright2 {
+/*.natgeo-southsudan-2:hover #natgeo-southsudan-copyright2 {
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES FELIPE-DANA-MOSUL*/
 
-.natgeo-mosul-img:hover #natgeo-mosul-copyright{
+/*.natgeo-mosul-img:hover #natgeo-mosul-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES MOISES-SAMAN*/
-.natgeo-moises-saman:hover #natgeo-moisessaman-copyright{
+/*.natgeo-moises-saman:hover #natgeo-moisessaman-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES NADIA-SHIRA-COHEN*/
-.natgeo-zika:hover #natgeo-zika-copyright{
+/*.natgeo-zika:hover #natgeo-zika-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES DUBAI*/
-.natgeo-dubai:hover #natgeo-dubai-copyright{
+/*.natgeo-dubai:hover #natgeo-dubai-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES AUSTIN*/
-.natgeo-austin:hover #natgeo-austin-copyright{
+/*.natgeo-austin:hover #natgeo-austin-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
@@ -225,37 +226,37 @@ transition: all 0.2s linear;
                 /***WORK THE NEW YORKER***/
 
 /*WORK PICTURES POPE*/
-.tny-pope:hover #tny-pope-copyright{
+/*.tny-pope:hover #tny-pope-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES SCOTTISH BORDER*/
-.tny-scottishborder:hover #tny-scottishborder-copyright{
+/*.tny-scottishborder:hover #tny-scottishborder-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES LOVE IN INDIA*/
-.tny-loveinindia:hover #tny-loveinindia-copyright{
+/*.tny-loveinindia:hover #tny-loveinindia-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES PARIS*/
-.paris-holder:hover #tny-parisattack-copyright{
+/*.paris-holder:hover #tny-parisattack-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES SMARTPHONE PHOTOGRAPHY*/
-.tny-smartphone-photography:hover #tny-smartphone-copyright{
+/*.tny-smartphone-photography:hover #tny-smartphone-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
 
 /*WORK PICTURES DRC ARCHIVE*/
-.tny-drc-archive:hover #tny-drcarchive-copyright{
+/*.tny-drc-archive:hover #tny-drcarchive-copyright{
 opacity: 1;
 transition: all 0.2s linear;
 }
