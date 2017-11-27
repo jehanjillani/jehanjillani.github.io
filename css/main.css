@@ -135,6 +135,7 @@ img:hover {
   position: relative;
 }
 
+
  #natgeo-rohingya-copyright, #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
   opacity: 0;
   position: absolute;
@@ -146,6 +147,7 @@ img:hover {
   font-weight: bold;
   z-index: 1;
 }
+
 
 #tny-pope-copyright, #tny-scottishborder-copyright, #tny-loveinindia-copyright, #tny-paris-attack-copyright, #tny-smartphone-copyright, #tny-drcarchive-copyright {
   opacity: 0;
@@ -168,6 +170,8 @@ font-weight: bold;
 }
 
                 /***WORK NATIONAL GEOGRAPHIC***/
+
+
 
 /*WORK PICTURES ROHINGYA-REFUGEES*/
 /*
@@ -301,8 +305,8 @@ padding-top: 20px;
 @media (max-width: 736px) {
 .navigation-bar {
 height: auto;
-width: 40%;
-font-size: 12%;
+width: 23%;
+font-size: 10%;
 flex-direction: column;
 align-items: left;
 background-color: rgba(255,255,255, 0.8);
@@ -316,7 +320,7 @@ background-color: rgba(255,255,255, 0.8);
 .images-text-natgeo, .images-text-tny {
 flex-direction: column;
 align-items: center;
-width: 80%;
+width: 50%;
 padding-left: 0px;
 padding-right: 0px;
 }
@@ -324,7 +328,7 @@ padding-right: 0px;
 
 @media (max-width: 736px) {
 img {
-height: 15em;
+height: 14em;
 width: auto;
 }
 }
