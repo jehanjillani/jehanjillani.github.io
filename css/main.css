@@ -114,7 +114,7 @@ img:hover {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  width: 4500px;
+  width: 5200px;
 }
 
 .images-text-tny {
@@ -131,11 +131,11 @@ img:hover {
 
                 /***WORK PICTURES COPYRIGHT STYLING***/
 
-.natgeo-rohingya, .natgeo-southsudan, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive, .paris-holder {
+.natgeo-rohingya, .natgeo-southsudan, .natgeo-southsudan-2, .natgeo-mosul, .natgeo-moises-saman, .natgeo-philippines-diaspora .natgeo-zika, .natgeo-dubai, .natgeo-austin, .tny-pope, .tny-scottishborder, .tny-loveinindia, .tny-smartphone-photography, .tny-drc-archive, .paris-holder {
   position: relative;
 }
 
- #natgeo-rohingya-copyright, #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright {
+ #natgeo-rohingya-copyright, #natgeo-southsudan-copyright, #natgeo-southsudan-copyright2, #natgeo-mosul-copyright, #natgeo-moisessaman-copyright, #natgeo-zika-copyright, #natgeo-dubai-copyright, #natgeo-austin-copyright, #natgeo-hannahreyesmorales-copyright {
   opacity: 0;
   position: absolute;
   top: 35%;
